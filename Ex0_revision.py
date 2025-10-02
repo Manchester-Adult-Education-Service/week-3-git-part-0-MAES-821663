@@ -28,6 +28,12 @@
 #    For example: "My favourite sport is football."
 #    (Don’t just copy this! Use your own values.)
 
+fave_sport = 'hockey'
+fave_number = 101
+fave_food = 'turkey'
+
+print(f'I really enjoy watching {fave_sport}, especially with some {fave_food}!\nAlso i really like the number {fave_number}.')
+
 # Step 2: Input Practice (ask the user for answers)
 # -------------------------------------------------
 # We can ask the user questions using input().
@@ -38,6 +44,8 @@
 # 1. Ask the user for their name
 # 2. Store it in a variable called "name"
 # 3. Print a message that says hello to them
+
+name = input('Hello, what is your name?\n')
 
 # Step 3: Combine Variables and Input
 # -----------------------------------
@@ -53,6 +61,12 @@
 # 1. Create a variable called current_year and set it to 2025
 # 2. Ask the user for their age
 # 3. Print a message showing their age and the current year
+
+current_year = 2025
+current_age = input('How old are you?\n')
+
+print(f'The year is {current_year} and you are {current_age}!')
+
 
 # -------------------------------------------
 # Git Task: Submit your work!
