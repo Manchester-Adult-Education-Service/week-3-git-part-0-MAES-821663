@@ -31,6 +31,11 @@
 fave_sport = 'hockey'
 fave_number = 101
 fave_food = 'turkey'
+fave_drink = input('what is your favourite drink?\n')
+fave_place = input('what is your favourite place to be?\n')
+fave_hobby = input('What hobby do you enjoy most?\n')
+fave_colour = input('What is your favourite colour?\n')
+name = input('What is your name?\n')
 
 print(f'I really enjoy watching {fave_sport}, especially with some {fave_food}!\nAlso i really like the number {fave_number}.')
 
@@ -45,7 +50,7 @@ print(f'I really enjoy watching {fave_sport}, especially with some {fave_food}!\
 # 2. Store it in a variable called "name"
 # 3. Print a message that says hello to them
 
-name = input('Hello, what is your name?\n')
+name = input('Could you remind me of your name?\n')
 
 # Step 3: Combine Variables and Input
 # -----------------------------------
@@ -65,8 +70,23 @@ name = input('Hello, what is your name?\n')
 current_year = 2025
 current_age = input('How old are you?\n')
 
-print(f'The year is {current_year} and you are {current_age}!')
 
+print(f'The year is {current_year} and you are {current_age}!\nYou particularly enjoy {fave_hobby}')
+
+
+print(f'''
+Hello {name}, I have created a identity card for you!:
+
+name: {name}
+age: {current_age}
+favourite food: {fave_food}
+favourite colour: {fave_colour}
+
+''')
+
+age = int(input('How old are you?\n'))
+
+print(f'You are {age} years old, in 5 years you will be {age + 5} and in {100 - age} years you will be 100!')
 
 # -------------------------------------------
 # Git Task: Submit your work!
